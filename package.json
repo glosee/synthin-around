@@ -1,0 +1,19 @@
+{
+  "name": "synth",
+  "version": "1.0.0",
+  "description": "Hackday Synth Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t coffeeify --debug src/coffee/index.coffee > js/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^10.2.1",
+    "coffeeify": "^1.1.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "mousetrap": "^1.5.2"
+  }
+}
